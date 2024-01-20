@@ -8,6 +8,50 @@ html {
 	padding: 0;
 }
 
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: unset;
+}
+
+button {
+	cursor: pointer;
+	border: none;
+	outline: none;
+}
+
 body {
 	font-family: "Lato", sans-serif;
 }
+
+.container {
+	max-width: 1400px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.logo {
+	width: 81px;
+	height: 24px;
+}
+
+.btn {
+	font-size: 20px;
+	font-weight: 400;
+	border-radius: 4px;
+	border: 1px solid var(--co-green);
+	background: var(--co-green);
+	padding: 13px 50px;
+	color: var(--co-white);
+	white-space: nowrap;
+}
+
+.btn:hover,
+.btn:focus-visible {
+	outline: 2px solid var(--co-black);
+}
+
+/* mobile breakpoints 992px, 768px, 576px, 480px */
