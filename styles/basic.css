@@ -53,5 +53,3 @@ body {
 .btn:focus-visible {
 	outline: 2px solid var(--co-black);
 }
-
-/* mobile breakpoints 992px, 768px, 576px, 480px */

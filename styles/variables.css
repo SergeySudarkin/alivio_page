@@ -1,6 +1,9 @@
 :root {
 	--co-white: #fff;
 	--co-black: #292929;
+	--co-light-black: #484848;
 	--co-green: #01815c;
 	--bg-co-dark-green: #245852;
 }
+
+/* mobile breakpoints 992px, 768px, 576px, 480px */
