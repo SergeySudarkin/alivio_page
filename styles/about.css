@@ -1,0 +1,96 @@
+.about {
+	margin: 200px 0 56px 0;
+}
+
+.about__wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 15px;
+	margin: 0 0 200px 0;
+}
+
+.about__title {
+	color: var(--co-light-green);
+	font-size: 50px;
+	font-weight: 700;
+	max-width: 500px;
+	position: relative;
+}
+
+.about__title::before {
+	content: "How it works";
+	position: absolute;
+	color: var(--co-light-black);
+	font-size: 24px;
+	font-weight: 600;
+	left: 0;
+	top: -25px;
+}
+.about__desc {
+	color: var(--co-light-black);
+	max-width: 670px;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 150%;
+}
+
+@media (max-width: 1110px) {
+	.about__desc {
+		max-width: 600px;
+	}
+}
+
+@media (max-width: 992px) {
+	.about__title {
+		font-size: 30px;
+		max-width: 300px;
+	}
+
+	.about__title::before {
+		font-size: 20px;
+	}
+
+	.about__desc {
+		max-width: 500px;
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 768px) {
+	.about {
+		margin: 150px 0 50px 0;
+	}
+
+	.about__title {
+		font-size: 24px;
+		max-width: 250px;
+	}
+
+	.about__title::before {
+		font-size: 16px;
+	}
+
+	.about__desc {
+		max-width: 350px;
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 576px) {
+	.about {
+		margin: 100px 0 40px 0;
+	}
+
+	.about__wrapper {
+		flex-direction: column;
+		align-items: start;
+		margin: 0 0 150px 0;
+	}
+
+	.about__desc {
+		max-width: 670px;
+		text-align: justify;
+		font-size: 16px;
+	}
+}
