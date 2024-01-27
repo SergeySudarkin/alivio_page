@@ -1,0 +1,29 @@
+.footer {
+	padding: 95px 0 145px;
+	background: var(--bg-co-dark-green);
+	color: var(--co-white);
+}
+
+.footer__content {
+	padding-left: 30px;
+}
+
+.footer__title {
+	font-size: 40px;
+	font-weight: 900;
+}
+
+.footer__nav {
+	margin-top: 65px;
+}
+
+.footer__nav-list {
+	display: flex;
+	flex-direction: column;
+	row-gap: 60px;
+}
+
+.footer__nav-link {
+	font-size: 25px;
+	font-weight: 600;
+}
