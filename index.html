@@ -44,15 +44,43 @@
 		</div>
 	</header>
 
+	<div class="mobile__nav" aria-label="mobile navigation">
+		<label for="toggler-id" aria-label="mobile toggler">
+			<svg class="mobile__burger" aria-label="mobile burger">
+				<use href="assets/sprites.svg#burger-icon"></use>
+			</svg>
+		</label>
+		<input class="mobile__toggler" type="checkbox" name="toggler" id="toggler-id">
+		<nav class="mobile__nav-menu" aria-label="navigation">
+			<ul class="mobile__nav-list" aria-label="navigation list">
+				<li class="mobile__nav-item" aria-label="navigation item">
+					<a class="mobile__nav-link" href="#about-id" aria-label="link to Why Alivio">Why Alivio</a>
+				</li>
+				<li class="mobile__nav-item" aria-label="navigation item">
+					<a class="mobile__nav-link" href="#success-id" aria-label="link to Solutions">Solutions</a>
+				</li>
+				<li class="mobile__nav-item" aria-label="navigation item">
+					<a class="mobile__nav-link" href="#product-id" aria-label="link to Community">Community</a>
+				</li>
+				<li class="mobile__nav-item" aria-label="navigation item">
+					<a class="mobile__nav-link" href="#footer-id" aria-label="link to Pricing">Pricing</a>
+				</li>
+			</ul>
+			<label for="toggler-id" aria-label="mobile toggler">
+				<svg class="mobile__cross" aria-label="mobile cross">
+					<use href="assets/sprites.svg#cross-icon"></use>
+				</svg>
+			</label>
+		</nav>
+	</div>
+
 	<main>
 		<section class="hero" aria-label="hero section">
 			<div class="container">
 				<div class="hero__content" aria-label="content">
 					<h1 class="hero__title">Be aware, Manage well.</h1>
 					<p class="hero__desc" aria-label="description">Everyone experiences stress in different ways. Let Alivio
-						guide you, in a
-						personalized
-						journal experience, to overcome your stress.
+						guide you, in a personalized journal experience, to overcome your stress.
 					</p>
 					<button class="btn" aria-label="button Find Your Way">Find Your Way</button>
 				</div>
